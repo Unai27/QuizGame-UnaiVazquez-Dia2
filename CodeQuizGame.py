@@ -1,9 +1,9 @@
 def main():
     print("Bienvenido al Juego de Preguntas!")
     questions = [
-        {"question": "¿Cuál es la capital de Francia?", "answer": "París"},
-        {"question": "¿Cuánto es 5 + 3?", "answer": "8"},
-        {"question": "¿Cuál es el lenguaje que estás aprendiendo?", "answer": "Python"},
+        {"question": "¿Wich is the capital of france?", "answer": "Paris"},
+        {"question": "¿How much is 5+3*2?", "answer": "11"},
+        {"question": "¿Wich is the club tha won 0-1 to PSG in champions league?", "answer": "Atletico De Madrid"},
     ]
     
     score = 0
@@ -11,12 +11,12 @@ def main():
     for q in questions:
         user_answer = input(q["question"] + " ")
         if user_answer.lower() == q["answer"].lower():
-            print("¡Correcto!")
+            print("Correct!")
             score += 1
         else:
-            print("Incorrecto. La respuesta correcta es:", q["answer"])
+            print("Wrong, The correct answer is:", q["answer"])
 
-    print(f"Juego terminado. Tu puntaje final es: {score}/{len(questions)}")
+    print(f"End Game. Your final score is: {score}/{len(questions)}")
 
 if __name__ == "__main__":
     main()
