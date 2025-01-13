@@ -3,7 +3,7 @@ def main():
     questions = [
         {"question": "¿Wich is the capital of france?", "answer": "Paris"},
         {"question": "¿How much is 5+3*2?", "answer": "11"},
-        {"question": "¿Wich is the club tha won 0-1 to PSG in champions league?", "answer": "Atletico De Madrid"},
+        {"question": "¿Wich is the club that won 1-2 to PSG in champions league?", "answer": "Atletico De Madrid"},
     ]
     
     score = 0
